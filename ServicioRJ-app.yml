@@ -1,16 +1,3 @@
-configuration:
-  protocols:
-    protocol:
-    
-      -id: WebMailProtocol
-      -class: com.isb.rigel.srvcimpl.webCTI.protocols.WebMailProtocol
-      configuration:
-        host: BESNCCEMI01.san.corp
-        port: '7777'
-        repository: UPLOADEDFILES
-    
-      -id: GenericInteractionProtocol
-      -class: com.isb.rigel.srvcimpl.webCTI.protocols.GenericInteractionProtocol
-      configuration:
-        host: BESNCCEMI01.san.corp
-        port: '6130'
+myprops:
+  alias: tralarararita
+  nombre: caperucita
